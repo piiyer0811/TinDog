@@ -1,0 +1,208 @@
+
+
+/* Whole Document */
+body {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Montserrat';
+    font-weight:900;
+}
+
+
+.big-heading{
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 9%;
+
+}
+
+/* Title Section */
+
+#title {
+  background-color: #FF4C68;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 9% 3%
+
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding-left: 0;
+}
+
+.navbar {
+  padding: 0 0 5rem 0;
+}
+
+.download-button {
+  margin: 5% 4% 5% 0;
+}
+
+
+
+
+
+.dog {
+  width: 70%;
+  transform: rotate(25deg);
+  padding-top: 2rem;
+  position: absolute;
+  right:30%
+}
+
+/* Features Section */
+#features {
+
+  background-color:white;
+  position:relative;
+
+
+}
+
+.cards {
+  text-align: center;
+}
+
+
+
+.icon {
+  font-size: 3.5rem;
+  padding-bottom: 12px;
+  color: #EF8172;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+.feature-description {
+  color: #8F8F8F;
+  font-weight: 200;
+}
+
+.feature-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  background-color:#EF8172;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item{
+  padding:10rem 12rem 7rem 12rem;
+}
+
+
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+.media-logo{
+
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* Press Section */
+
+#press{
+  background-color:#EF8172;
+  text-align: center;
+
+}
+.last-p{
+  margin-bottom:57px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-col{
+  padding: 3% 2%;
+
+}
+
+/* Cta Section */
+#cta{
+
+    background-color:#FF4C68;
+    color: white;
+    text-align: center;
+
+
+}
+.cta-description{
+  font-size:3rem;
+  line-height: 1.5;
+  padding:1.5rem 1.2rem 0.5rem;
+}
+
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  background-color:white;
+
+}
+.copyright{
+  margin-top: 20px;
+}
+.footer-icons{
+  font-size: 1rem;
+  padding:0.8rem;
+}
+
+
+/* Mobile Responsive section */
+
+@media (max-width:1113px){
+  .dog {
+    width: 70%;
+    transform: rotate(0deg);
+    padding-top: 2rem;
+    position: static;
+
+  }
+  #title{
+    text-align: center;
+  }
+}
