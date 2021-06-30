@@ -3,7 +3,7 @@ A Matchmaking website for your four legged best-friend. Completely Responsive We
 
 ## Landing Page
 
-<img src="img/landing.png">
+<img src="img/home.png">
 
 ## testimonial Section
 
